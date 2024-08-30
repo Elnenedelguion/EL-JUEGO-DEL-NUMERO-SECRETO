@@ -1,0 +1,137 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    cursor: pointer;
+ 
+}
+
+body {
+    background: linear-gradient(#1354A5 0%, #041832 33.33%, #041832 66.67%, #01080E 100%);
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.container {
+    width: 1200px;
+    height: 650px;
+    background-image: url("img/niños.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+
+.container__contenido {
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: -49%;
+}
+
+.container__informaciones {
+    flex: 1;
+    padding: 3rem;
+  
+}
+
+.container__boton {
+    border-radius: 16px;
+    background: #1875E8;
+    padding: 16px 24px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    margin-top: 2rem;
+
+}
+
+.container__boton:disabled {
+    background: #898989;
+
+}
+
+.container__texto {
+    margin: 16px 0 16px 0;
+}
+
+.container__texto-azul {
+    color: #1875E8;
+}
+
+.container__input {
+    width: 100%;
+    height: 50px;
+    border-radius: 16px;
+    background-color: #FFF;
+    border: none;
+    color: #1875E8;
+    padding: 1rem;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+  }
+
+
+
+.container__botones {
+    display: flex;
+    gap: 2em;
+  
+}
+
+h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 72px;
+    padding-bottom: 1rem;
+}
+
+p,
+button {
+    font-family: 'Inter', sans-serif;
+
+ 
+}
+
+.texto__parrafo {
+    font-size: 30px;
+    font-weight: 850;
+    display: flex;
+    justify-content: center;
+    color: yellow;
+    padding: 9px;
+    border: 1px solid color(yellow red green blue);
+    border-radius: 15px;
+    box-shadow: 0px 20px 29px -5px ;
+}
+
+.piramide {
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 50px;
+}
+
+.piramide h1 {
+    margin: 0;
+}
+
+.linea1 {
+    margin-left: 35%;
+}
+
+.linea2 {
+    margin-left: 30%;
+}
+
+.linea3 {
+    margin-left: 25%;
+}
+
+.linea4 {
+    margin-left: 20%;
+}
