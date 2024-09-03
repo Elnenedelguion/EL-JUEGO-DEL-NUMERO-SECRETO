@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Eduardo Iuorio">
+    <meta name="keywords"
+        content="Eduardo Iuorio, eduardo iuorio, programador, programador front end, programador back end, front end, back end, secret game, el juego secreto, secreto">
+    <meta name="copyright" content="Copyright Eduardo Iuorio">
+    <title>Secret Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="container__contenido">
+
+            <div class="container__informaciones">
+                <div class="container__texto">
+
+                    <p class="texto__parrafo"></p>
+                </div>
+                <input type="number" id="valorUsuario" min="1" max="10" class="container__input">
+                <div class="chute container__botones">
+                    <button onclick="verificarIntento();" class="container__boton">Intentar</button>
+                    <button onclick="reiniciarJuego();" class="container__boton" id="reiniciar" disabled>Nuevo
+                        juego</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="piramide">
+        <h1 class="linea1">Juego</h1>
+        <h1 class="linea2">del</h1>
+        <h1 class="linea3">número</h1>
+        <h1 class="linea4">secreto</h1>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
