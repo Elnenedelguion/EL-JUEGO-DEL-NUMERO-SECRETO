@@ -1,2 +1,3 @@
 # EL-JUEGO-DEL-NUMERO-SECRETO
-JUEGO DE ADIVINANZA
+
+![Uploading edu secret game.png…]()
