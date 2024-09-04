@@ -19,8 +19,20 @@
 </head>
 
 <body>
+    <header> 
+        
+    <h2 class="copyright">&copy; Copyright 2024 - El Juego Secreto - Desarrollado por Eduardo Iuorio.</h2>
+ 
+    </a>
+    </header>
 
     <div class="container">
+        <a href="https://github.com/Elnenedelguion">
+            <img src="img/github.svg" alt="Logo Github" class="git">
+        </a>
+        <a href="https://www.linkedin.com/in/eduardo-iuorio/">
+            <img src="img/linkedin.svg" alt="Logo Linkedin" class="linked">
+        </a>
 
         <div class="container__contenido">
 
@@ -28,9 +40,11 @@
                 <div class="container__texto">
 
                     <p class="texto__parrafo"></p>
+                 
                 </div>
-                <input type="number" id="valorUsuario" min="1" max="10" class="container__input">
-                <div class="chute container__botones">
+                
+                <input type="number" id="valorUsuario" min="1" max="10" class="container__input"  placeholder="Ingrese el número aquí"></textarea>
+                <div class="container__botones">
                     <button onclick="verificarIntento();" class="container__boton">Intentar</button>
                     <button onclick="reiniciarJuego();" class="container__boton" id="reiniciar" disabled>Nuevo
                         juego</button>
@@ -42,12 +56,7 @@
     </div>
 
 
-    <div class="piramide">
-        <h1 class="linea1">Juego</h1>
-        <h1 class="linea2">del</h1>
-        <h1 class="linea3">número</h1>
-        <h1 class="linea4">secreto</h1>
-    </div>
+    
     <script src="app.js"></script>
 
 </body>
