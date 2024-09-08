@@ -1,6 +1,6 @@
-# EL-JUEGO-DEL-NUMERO-SECRETO
+# SECRET NUMBER GAME
 
 ![edu secret game](https://github.com/user-attachments/assets/75dd7816-bfc7-418f-ab81-8633b0e8565c)
 
 *****************************************************************************************************
-:point_right: Este juego es un desafío en el que debes adivinar un número del 1 al 10. Cada vez que intentas, se te indica si el número secreto es mayor o menor que tu elección. Si aciertas, se te felicita por haberlo hecho en una cantidad específica de intentos. Si no, puedes seguir probando hasta que se te agoten las posibilidades. Una vez que se han intentado todos los números posibles, el juego se reinicia automáticamente, permitiéndote jugar de nuevo.
+:point_right: This game is a challenge where you must guess a number from 1 to 10. Each time you make a guess, you are told whether the secret number is higher or lower than your choice. If you guess correctly, you are congratulated for doing it in a specific number of attempts. If not, you can keep trying until you run out of possibilities. Once all possible numbers have been attempted, the game automatically restarts, allowing you to play again.
